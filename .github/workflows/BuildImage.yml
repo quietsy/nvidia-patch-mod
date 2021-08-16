@@ -4,7 +4,7 @@ on: [push, pull_request, workflow_dispatch]
 
 env:
   ENDPOINT: "quietsy/nvidia-patch-mod"
-  BRANCH: "main"
+  BRANCH: "master"
 
 jobs:
   build:
